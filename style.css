@@ -72,7 +72,7 @@ body{
 }
 
 .heading{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--White);
     transition: .3s;
@@ -86,7 +86,7 @@ body{
     text-align: left;
     font-size: 18px;
     font-weight: 300;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
     margin-top: 1rem;
 }
 
@@ -105,10 +105,9 @@ body{
 
 .left{
     display: flex;
-    /* align-items: center; */
     font-weight: bold;
     color: var(--Cyan);
-    /* text-align: center; */
+    font-size: 16px;
 }
 
 .txt-right{
@@ -124,6 +123,7 @@ body{
 .column-divide{
     background-color: hsl(214, 34%, 24%);
     height: 1px;
+    margin-top: 1.25rem;
     margin-bottom: 1rem;
 }
 
