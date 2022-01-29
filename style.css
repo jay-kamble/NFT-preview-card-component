@@ -120,18 +120,20 @@ body{
     color: var(--Soft-blue);
 }
 
-.column-divide{
+/* .column-divide{
     background-color: hsl(214, 34%, 24%);
     height: 1px;
     margin-top: 1.25rem;
     margin-bottom: 1rem;
-}
+} */
 
 .bottom{
     justify-content: flex-start;
     display: flex;
     align-items: center;
     margin-bottom: .3rem;
+    border-top: solid 1px var(--Soft-blue);
+    padding-top: 1rem;
 }
 .avatar{
     max-height: 31px;
@@ -158,6 +160,7 @@ body{
     font-size: 13px;
     text-align: center;
     color: white;
+    letter-spacing: 1px;
   }
   .attribution a {
     color: var(--Soft-blue);
@@ -166,6 +169,6 @@ body{
 
 @media (min-width: 375px){
     .container{
-        width: 350px;
+        max-width: 350px;
     }
 }
